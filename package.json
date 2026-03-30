@@ -1,0 +1,27 @@
+{
+  "name": "youtubemomentum",
+  "version": "1.0.0",
+  "description": "YouTube Momentum dashboard MVP",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrenKarmi/YouTubeMomentum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OrenKarmi/YouTubeMomentum/issues"
+  },
+  "homepage": "https://github.com/OrenKarmi/YouTubeMomentum#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
